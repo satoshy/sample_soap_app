@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fromcurrency:</strong>
+  <%= @converter.fromCurrency %>
+</p>
+
+<p>
+  <strong>Tocurrency:</strong>
+  <%= @converter.toCurrency %>
+</p>
+
+<%= link_to 'Edit', edit_converter_path(@converter) %> |
+<%= link_to 'Back', converters_path %>
